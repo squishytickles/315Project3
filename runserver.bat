@@ -1,0 +1,1 @@
+python StudentOrganization/manage.py runserver
