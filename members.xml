@@ -1,0 +1,24 @@
+<!-- Project3 Member List -->
+<Memberlist>
+  	<Member>
+			<Name>James Sguigna</Name>
+			<JoinDate>4/18/2013</JoinDate>
+			<Classification>Officer</Classification>
+		</Member>
+		<Member>
+			<Name>Yacine Foura</Name>
+			<JoinDate>4/18/2013</JoinDate>
+			<Classification>Officer</Classification>
+		</Member>
+		<Member>
+			<Name>Patrick Swetz</Name>
+			<JoinDate>4/18/2013</JoinDate>
+			<Classification>Officer</Classification>
+		</Member>
+		<Member>
+			<Name>Sarah Vance</Name>
+			<JoinDate>4/18/2013</JoinDate>
+			<Classification>Officer</Classification>
+		</Member>
+</Memberlist>
+			
