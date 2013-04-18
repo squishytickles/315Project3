@@ -1,0 +1,9 @@
+<h1>{{event.event_name}}</h1>
+<h2>Date:</h2>
+{{event.event_date}}
+<h2>Description:</h2>
+{{event.event_text}}
+<h2>Created On:</h2>
+{{event.event_creation}}
+<h2>Created By:</h2>
+<a href="{% url 'users:detail' owner.id %}">{{owner.first_name}} {{owner.last_name}}</a>

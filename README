@@ -1,4 +1,4 @@
 To run the server:
 Copy the django folder to C:\Python27\Lib\site-packages\
 Run runserver.bat
-Browse to http://localhost:8000/
+Browse to http://localhost/

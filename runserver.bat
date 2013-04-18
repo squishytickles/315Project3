@@ -1,1 +1,1 @@
-python StudentOrganization/manage.py runserver
+python StudentOrganization/manage.py runserver 80
