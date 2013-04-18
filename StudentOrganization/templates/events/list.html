@@ -1,0 +1,9 @@
+{% include "header.html" %}
+
+{% for event in events %}
+<a href="{% url 'events:detail' event.id %}">{{ event.event_name }}</a> <br/>
+{% empty %}
+No events exist
+{% endfor %}
+
+{% include "footer.html" %}

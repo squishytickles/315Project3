@@ -1,0 +1,9 @@
+{% include "header.html" %}
+
+{% for user in users %}
+<a href="{% url 'users:detail' user.id %}">{{ user.username }}</a> <br/>
+{% empty %}
+No users exist
+{% endfor %}
+
+{% include "footer.html" %}

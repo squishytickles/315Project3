@@ -1,5 +1,9 @@
+{% include "header.html" %}
+
 <h1>{{user.first_name}} {{user.last_name}}</h1>
 <h2>Username:</h2>
 {{user.username}}
 <h2>Email:</h2>
 <a href="mailto:{{user.email}}">{{user.email}}</a>
+
+{% include "footer.html" %}

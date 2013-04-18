@@ -1,0 +1,10 @@
+{% include "header.html" %}
+
+<h1>Events</h1>
+<h2>Actions</h2>
+<ul>
+<li><a href="{% url 'events:create' %}">Create Event</a></li>
+<li><a href="{% url 'events:list' %}">List Events</a></li>
+</ul>
+
+{% include "footer.html" %}
