@@ -1,0 +1,243 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Carousel Template &middot; Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <style>
+
+    /* GLOBAL STYLES
+    -------------------------------------------------- */
+    /* Padding below the footer and lighter body text */
+
+    body {
+      padding-bottom: 40px;
+      color: #5a5a5a;
+    }
+
+
+
+    /* CUSTOMIZE THE NAVBAR
+    -------------------------------------------------- */
+
+    /* Special class on .container surrounding .navbar, used for positioning it into place. */
+    .navbar-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+      margin-top: 20px;
+      margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+    }
+    .navbar-wrapper .navbar {
+
+    }
+
+    /* Remove border and change up box shadow for more contrast */
+    .navbar .navbar-inner {
+      border: 0;
+      -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+         -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+              box-shadow: 0 2px 10px rgba(0,0,0,.25);
+    }
+
+    /* Downsize the brand/project name a bit */
+    .navbar .brand {
+      padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+      font-size: 16px;
+      font-weight: bold;
+      text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    }
+
+    /* Navbar links: increase padding for taller navbar */
+    .navbar .nav > li > a {
+      padding: 15px 20px;
+    }
+
+    /* Offset the responsive button for proper vertical alignment */
+    .navbar .btn-navbar {
+      margin-top: 10px;
+    }
+
+    </style>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="ico/favicon.png">
+  </head>
+
+  <body>
+
+
+
+    <!-- NAVBAR
+    ================================================== -->
+    <div class="navbar-wrapper">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container">
+
+        <div class="navbar navbar-inverse">
+          <div class="navbar-inner">
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="#">TAMOR</a>
+            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li><a href="HomePage.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li class="active"><a href="Contact.html">Contact</a></li>
+                <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li class="nav-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div><!-- /.navbar-inner -->
+        </div><!-- /.navbar -->
+
+      </div> <!-- /.container -->
+    </div><!-- /.navbar-wrapper -->
+	
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+      <div class="row">
+        <div class="span4">
+          <br /><br /><br /><br />
+		  <h2>Contact 1</h2>
+          <h1>James Sguigna</h1>
+		  <p>214-551-8736</p>
+		  <p>jsguigna@tamu.edu</p>
+        </div><!-- /.span4 -->
+        <div class="span4">
+		  <br /><br /><br /><br />
+          <h2>Contact 2</h2>
+		  <h1>Sarah Vance</h1>
+          <p>PHONE NUMBER</p>
+		  <p>sarah-vance@tamu.edu</p>
+        </div><!-- /.span4 -->
+        <div class="span4">
+		  <br /><br /><br /><br />
+          <h2>Contact 3</h2>
+		  <h1>Jason Foura</h1>
+          <p>PHONE NUMBER</p>
+		  <p>jason.foura@live.com</p>
+		</div>
+		<div class="span4">
+          <h2>Contact 4</h2>
+		  <h1>Patrick Swetz</h1>
+          <p>PHONE NUMBER</p>
+		  <p>pswetz89@gmail.com</p>
+        </div><!-- /.span4 -->
+      </div><!-- /.row -->
+
+	  <div>
+		<br />
+		<br />
+	  </div>
+	  
+	 <script>
+    function ld_members()
+    {
+       var doc=member_dso.XMLDocument;
+       doc.load("members.xml");
+       document.getElementById("head_id").innerHTML=
+                                  "Member List"; 
+    }
+    </script>
+	
+	
+    <XML id="userbase" src="members.xml" async="false"></XML>
+    
+	<object id="member_dso" 
+       CLASSID="clsid:550dda30-0541-11d2-9ca9-0060b0ec3d39" 
+       width="0" height="0"></object>
+ 
+	 <table width="80%" id=usertable datasrc="#userbase"  border="1">
+		<caption>
+			<span class="style1">Member List</span>
+		</caption>
+		<thead>
+			<tr>
+				<th>Name </span></th>
+				<th>Password</span></th>
+				<th>JoinDate</span></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><span datafld="Name"> </span></td>
+				<td><span datafld="Password"> </span></td>
+				<td><span datafld="JoinDate"> </span></td>
+			</tr>
+		</tbody>
+	</table>
+	  
+      <!-- FOOTER -->
+      <footer>
+        <p>TAMOR Club</p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://http://twitter.github.io/bootstrap/assets/js/jquery.js"></script>
+    <script src="http://http://twitter.github.io/bootstrap/assets/js/bootstrap-transition.js"></script>
+    <script src="http://http://twitter.github.io/bootstrap/assets/js/bootstrap-alert.js"></script>
+    <script src="http://http://twitter.github.io/bootstrap/assets/js/bootstrap-modal.js"></script>
+    <script src="http://http://twitter.github.io/bootstrap/assets/js/bootstrap-dropdown.js"></script>
+    <script src="http://http://twitter.github.io/bootstrap/assets/js/bootstrap-scrollspy.js"></script>
+    <script src="http://http://twitter.github.io/bootstrap/assets/js/bootstrap-tab.js"></script>
+    <script src="http://http://twitter.github.io/bootstrap/assets/js/bootstrap-tooltip.js"></script>
+    <script src="http://http://twitter.github.io/bootstrap/assets/js/bootstrap-popover.js"></script>
+    <script src="http://http://twitter.github.io/bootstrap/assets/js/bootstrap-button.js"></script>
+    <script src="http://http://twitter.github.io/bootstrap/assets/js/bootstrap-collapse.js"></script>
+    <script src="http://http://twitter.github.io/bootstrap/assets/js/bootstrap-carousel.js"></script>
+    <script src="http://http://twitter.github.io/bootstrap/assets/js/bootstrap-typeahead.js"></script>
+    <script>
+      !function ($) {
+        $(function(){
+          // carousel demo
+          $('#myCarousel').carousel()
+        })
+      }(window.jQuery)
+    </script>
+    <script src="js/holder/holder.js"></script>
+  </body>
+</html>
